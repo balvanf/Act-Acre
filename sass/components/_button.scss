@@ -1,0 +1,23 @@
+@use 'sass:math';
+
+%button {
+  padding: 1rem 5rem;
+  margin: 0 auto;
+  width: 100%;
+  background-color: $accent;
+  border: none;
+  font-size: $font-size-lg;
+  &:hover { 
+    cursor: pointer;
+    background-color: darken($accent, 5);
+  } 
+  text-align: center;
+  color: $secondary;
+}
+
+.btn {
+  @extend %button;
+  @include lg {
+    max-width: 500px;
+  }
+}
