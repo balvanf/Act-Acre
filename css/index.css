@@ -71,7 +71,7 @@ hr {
   overflow-x: scroll;
 }
 .carousel div {
-  width: 285px;
+  width: 250px;
   margin-right: 3rem;
 }
 @media (min-width: 800px) {
